@@ -1,6 +1,6 @@
-package com.contentservice.content.comment.data.dao;
+package com.contentservice.content.data.dao;
 
-import com.contentservice.content.comment.data.model.PersonEntity;
+import com.contentservice.content.data.model.PersonEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

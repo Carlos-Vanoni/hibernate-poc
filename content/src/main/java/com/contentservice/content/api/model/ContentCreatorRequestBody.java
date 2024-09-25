@@ -1,9 +1,8 @@
-package com.contentservice.content.comment.api.model;
+package com.contentservice.content.api.model;
 
 import lombok.Builder;
 import lombok.Data;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Data

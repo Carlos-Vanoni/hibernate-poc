@@ -1,4 +1,4 @@
-package com.contentservice.content.comment.api.model;
+package com.contentservice.content.api.model;
 
 import lombok.Builder;
 import lombok.Data;

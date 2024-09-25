@@ -1,20 +1,19 @@
-package com.contentservice.content.comment.data.model;
+package com.contentservice.content.data.model;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDate;
 
 @Entity
 @Getter
 @Setter
-@Table(name = "person")
+@NoArgsConstructor
+@AllArgsConstructor
 @Builder
+@Table(name = "person")
 public class PersonEntity {
 
     @Id
